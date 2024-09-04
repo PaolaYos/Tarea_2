@@ -1,0 +1,134 @@
+*{
+    margin: 0px;
+    padding: auto;
+}
+.contenedor{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+.sombrero
+{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 10px;
+    left: 700px;
+    margin-right: 100px;
+}
+.sombase
+{
+    background-color: purple;
+    width: 500px;
+    height: 70px;
+    position: relative;
+    top: 80px;
+    left: -160px;/*posicion*/
+    border-radius: 50%;
+    z-index: 2;
+}
+.cara
+{
+    background-color: rgb(153, 51, 56);
+    width: 350px;
+    height: 350px;
+    position: relative; /*padre*/
+    top: -30px;
+    left: 600px;
+    border-radius: 50%;
+    z-index: 1;
+}
+.ojo1
+{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    border-radius: 50%;
+}
+.iris1
+{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;/*hijo*/
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+.ojo2
+{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 80px;
+    left: 200px;
+    border-radius: 50%;
+}
+.iris2
+{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    position: absolute;/*hijo*/
+    top: 20px;
+    left: 20px;
+    border-radius: 50%;
+}
+.boca
+{
+    background-color: red;
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    top: 230px;
+    left: 80px;/*posicion*/
+    border-radius: 50%;
+    z-index: 2;
+}
+.boca1
+{
+    background-color: black;
+    width: 130px;
+    height: 25px;
+    position: absolute;/*hijo*/
+    top: 10px;
+    left: 35px;
+    border-radius: 50%;
+}
+.moño1
+{
+    background-color:yellow;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    top: -70px;
+    left: 540px;/*posicion*/
+    border-radius: 50%;
+    z-index: 2;
+}
+.moño2
+{
+    background-color: yellowgreen;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 200px;
+    border-radius: 50%;
+}
+.moño3
+{
+    background-color:yellow;
+    width: 200px;
+    height: 80px;
+    position: relative;
+    top: 0px;
+    left: 80px;/*posicion*/
+    border-radius: 50%;
+    z-index: 2;
+}
